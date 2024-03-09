@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form for Card</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="ourForm">
+      <h1 class="paigam">Fill this form to get your card</h1>
+      <form action="">
+        <input type="text" class="s_name" placeholder="Enter your name" />
+        <input type="text" class="f_name" placeholder="Enter father name" />
+        <input type="text" class="roll_no" placeholder="Enter roll number" />
+        <input
+          type="text"
+          class="program"
+          placeholder="Enter your degree program"
+        />
+        <input type="text" class="shuba" placeholder="Enter department name" />
+        <input
+          type="text"
+          class="shuru_date"
+          placeholder="Enter issuance date"
+        />
+        <input
+          type="text"
+          class="khatam_date"
+          placeholder="Enter expiry date"
+        />
+        <img class="image" src="./blank.png" />
+        <label for="input-file" class="lbl_btn">Upload Image</label>
+
+        <input
+          type="file"
+          accept="image/jpeg,image/png,image/jpeg"
+          id="input-file"
+        />
+
+        <button type="button" class="btn submit">Submit</button>
+        <button type="button" class="btn getcard">
+          <a href="#card">Get Card</a>
+        </button>
+      </form>
+    </div>
+    <div class="uog hidden">
+      <div class="uni_card">
+        <div id="card">
+          <button class="close">&times;</button>
+          <!-- here is markup of previous code -->
+          <div class="uni_card">
+            <img src="./U_logo.jpeg" class="logo" />
+            <div class="text-container">
+              <h1 class="uni_name">UNIVERSITY OF GUJRAT</h1>
+              <h3 class="third_class">A WORLD CLASS UNIVERSITY</h3>
+            </div>
+            <div class="QR">
+              <img src="./QR.png" class="qr_img" />
+            </div>
+            <div class="personal">
+              <img src="" class="profile" />
+              <div class="text-content">
+                <p class="number">21011519-000</p>
+                <p class="name">Name</p>
+                <br />
+                <p class="father">father</p>
+              </div>
+            </div>
+            <div class="below">
+              <p><span class="highlights">STUDENT</span></p>
+              <div class="info">
+                <p class="degree">BS</p>
+                <p class="department">Computer Science</p>
+              </div>
+              <label for="" class="signature">Issuing Authority</label>
+              <div class="validity">
+                <label for="" class="issuance">Issuance Date:</label>
+                <p class="issue_date">24 May 2022</p>
+                <br />
+                <label for="" class="expiry">Expiry Date:</label>
+                <p class="expiry_date">25 August 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+<!-- <div class="container">
+  <img src="./U_logo.jpeg" />
+  <div class="text-container">
+    <h1 class="uni_name">UNIVERSITY OF GUJRAT</h1>
+    <h3 class="third_class">A WORLD CLASS UNIVERSITY</h3>
+  </div>
+  <div class="QR">
+    <img src="./QR.png" />
+  </div>
+</div>
+<div class="personal">
+  <img src="./NOOR.jpg" />
+  <div class="text-container">
+    <p>
+      21011519-116
+      <br />
+      MOHAMMAD NOOR HAIDER
+    </p>
+    <p>S/O KHALIL HAIDER</p>
+    <p class="signature">Issuing Authority</p>
+  </div>
+</div>
+
+<div class="below">
+  <p><span class="highlights">STUDENT</span></p>
+  <p class="degree">
+    BS
+    <br />
+    Computer Science
+    <br />
+
+    Issuance Date: May 2022
+    <br />
+    Expiry Date: Aug 2025
+  </p>
+</div> -->
